@@ -1,0 +1,10 @@
+
+<h1>수정 창입니다.</h1>
+
+<form action="/home/update/<%=@edit.id%>">
+
+제목: <input type='text' name="edit_title" value="<%=@edit.title%>"> <br>
+내용: <textarea name="edit_content"><%=@edit.content%></textarea> <br>
+<input type='submit' value="제출">
+
+</form>
